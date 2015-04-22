@@ -1,0 +1,29 @@
+<table class="table table-hover">
+      <thead>
+        <tr>
+          <th>chbox</th>
+		  <th>id</th>
+          <th>name</th>
+          <th>surname</th>
+          <th>data of birth</th>
+		  <th>mobile number</th>
+		  <th>address</th>
+		  <th><button>Edit selected</button></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="user in users">
+			<td>	<input type="checkbox" name="checked_user" value="yes" ng-model="user.checked">		</td>
+			<td>{{user.id}}</td>
+			<td>{{user.name}}</td>
+			<td>{{user.surname}}</td>
+			<td>{{user.dateOfBirth}}</td>
+			<td>{{user.mobileNumber}}</td>
+			<td>{{user.address}}</td>
+			<td>	
+				<button ng-click="KrzychEditClicked(user)">Edit</button> 
+				<button  ng-click="KrzychDeleteClicked(user.id)">Delete</button>
+			</td>
+        </tr>
+      </tbody>
+    </table>

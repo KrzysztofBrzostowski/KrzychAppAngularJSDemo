@@ -1,0 +1,19 @@
+[
+    {
+        "id": 100, 
+		"name": "Krzych", 
+        "surname": "Brzostowski", 
+        "dateOfBirth": "24-8-1981", 
+        "mobileNumber": "634523125", 
+        "address": "Poznan, Dluga 2",
+		"checked": true
+    },{
+        "id": 244, 
+		"name": "Bartek", 
+        "surname": "Burkot", 
+        "dateOfBirth": "24-8-1980", 
+        "mobileNumber": "554625875", 
+        "address": "Mozarta 3",
+		"checked": false
+    }
+]
